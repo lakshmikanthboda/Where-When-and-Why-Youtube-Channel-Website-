@@ -18,7 +18,7 @@ def go():
     return datas
 
 def subdat():
-    url = 'https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCz64Q7H4zuxVCCGKNoCAX1A&key=AIzaSyBqYHodO3rwDFeu6DFskyge3Hoa0LFIOSg'
+    url = 'https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCz64Q7H4zuxVCCGKNoCAX1A&key=KeyHere'
 
     d = requests.get(url).json()
 
